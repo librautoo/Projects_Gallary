@@ -1,5 +1,5 @@
 document.querySelectorAll(".post").forEach(post => {
-	const postId = post.dataset.postId;
+	const postId = post.id;
 	const ratings = post.querySelectorAll(".post-rating");
 	const likeRating = ratings[0];
 
