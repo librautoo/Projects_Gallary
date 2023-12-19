@@ -51,3 +51,15 @@ body {
         height: auto;
     }
 }
+
+.back-to-portfolio {
+    display: block; /* changed from inline-block for footer */
+    margin: 10px auto;
+    color: #fff; /* color changed for visibility in footer */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-portfolio:hover {
+    text-decoration: underline;
+}
