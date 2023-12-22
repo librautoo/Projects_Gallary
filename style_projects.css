@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.content {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2,
+.content h3 {
+    color: #333;
+}
+
+.project_screenshots {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive images */
+@media screen and (max-width: 768px) {
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.back-to-portfolio {
+    display: block;
+    /* changed from inline-block for footer */
+    margin: 10px auto;
+    color: #fff;
+    /* color changed for visibility in footer */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-portfolio:hover {
+    text-decoration: underline;
+}
+
+.post {
+    width: 400px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.post-ratings-container {
+    display: flex;
+    justify-content: end;
+    padding: 12px 0;
+}
+
+.post-rating {
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.post-rating:not(:last-child) {
+    margin-right: 12px;
+}
+
+.post-rating-selected>.post-rating-button,
+.post-rating-selected>.post-rating-count {
+    color: #009578;
+}
+
+.post-rating-button {
+    margin-right: 6px;
+    cursor: pointer;
+    color: #555555;
+}
+
+.post-rating:not(.post-rating-selected)>.post-rating-button:hover {
+    color: #000000;
+}
+
+
+.clicked {
+    transform: scale(1.3); 
+    transition: transform 0.2s; 
+}
+
+
+.bounce {
+    animation: bounce 0.5s; 
+}
+
+
+@keyframes bounce {
+    0%, 100% { 
+        transform: translateY(0); 
+    }
+    50% { 
+        transform: translateY(-10px);
+    }
+}
+.github-link {
+    background-color: white;
+}
+
+
+.github-image {
+    max-width: 35px; 
+    height: auto; 
+}
