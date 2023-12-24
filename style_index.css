@@ -44,3 +44,47 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+/* Style for the content table */
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /* This helps in applying fixed width to columns */
+}
+
+/* Style for table headers */
+.content th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Style for the Topic column */
+.content th.topic, .content td.topic {
+    width: 30%; /* Adjust the percentage as needed */
+}
+
+/* Style for the Abstract column */
+.content th.abstract, .content td.abstract {
+    width: 70%; /* Adjust the percentage as needed */
+    word-wrap: break-word;
+}
+
+/* Style for table cells */
+.content td {
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: top; /* Align content to the top of the cell */
+}
+
+/* Enhanced style for links in the topic column */
+.content td.topic a {
+    font-weight: bold; /* Makes the link text bold */
+    color: #0000EE; /* Standard link color; adjust as needed */
+    text-decoration: underline; /* Underlines the link to highlight interactivity */
+}
+
+/* Add a hover effect to the links to make them more noticeable */
+.content td.topic a:hover {
+    text-decoration: none; /* Removes the underline on hover for a change effect */
+    color: #FF4500; /* Changes color on hover; adjust as needed */
+}
