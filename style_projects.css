@@ -74,6 +74,7 @@ body {
     text-decoration: underline;
 }
 
+/* For Thumb*/
 .post {
     width: 100%; 
     max-width: 800px; 
@@ -133,6 +134,8 @@ body {
         transform: translateY(-10px);
     }
 }
+
+/* For Github Link */
 .github-link {
     background-color: white;
 }
