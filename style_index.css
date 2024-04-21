@@ -88,3 +88,10 @@ body {
     text-decoration: none; 
     color: #FF4500; 
 }
+
+
+/* Set up CSS for Titanic */
+#Titanic {
+    font-weight: bold; /* Makes the text bold */
+    font-style: italic;
+}
