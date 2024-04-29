@@ -48,14 +48,18 @@ body {
 
 /* For Seperate Line */
 .separator-text {
-    text-align: center; /* Center the text */
-    font-size: 1.5em; /* Ensure the font size has a unit, like 'em' */
-    color: #333; /* Change the text color */
-    padding: 10px 0; /* Add some padding above and below the text */
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive; /* Use Brush Script font */
-    border: 5px dashed #000000; /* Add a dashed border */
-    margin: 100px 0; /* Add some margin above and below the separator */
-  }
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000; /* Softer color */
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif; /* Modern, clean font */
+    background: #f8f8f8; /* Light background */
+    border-top: 2px solid #cccccc; /* Solid line */
+    border-bottom: 2px solid #cccccc; /* Solid line */
+    margin: 50px 0; /* Less margin for a tighter look */
+    text-shadow: 1px 1px #fff; /* Subtle text shadow */
+    box-shadow: 0px 5px 5px -5px #333; /* Subtle box shadow */
+}
   
 
 /* For Img*/
