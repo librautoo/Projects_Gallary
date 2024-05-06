@@ -36,9 +36,9 @@ body {
     font-weight: bold;
 }
 
-.github-link:hover {
+/* .github-link:hover {
     text-decoration: underline;
-}
+} */
 
 
 .github-image {
@@ -143,6 +143,8 @@ body {
         transform: translateY(-10px);
     }
 }
+
+
 
 /* For All in Footer Section*/
 .footer {
