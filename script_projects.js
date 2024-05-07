@@ -1,3 +1,7 @@
+
+
+
+// For Thumb Button
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll(".post").forEach(post => {
         const postId = post.id;
