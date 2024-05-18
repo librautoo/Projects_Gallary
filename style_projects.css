@@ -36,9 +36,6 @@ body {
     font-weight: bold;
 }
 
-/* .github-link:hover {
-    text-decoration: underline;
-} */
 
 
 .github-image {
@@ -49,16 +46,15 @@ body {
 /* For Seperate Line */
 .separator-text {
     text-align: center;
-    font-size: 1.5em;
-    color: #000000; /* Softer color */
-    padding: 20px 0;
-    font-family: 'Open Sans', sans-serif; /* Modern, clean font */
-    background: #f8f8f8; /* Light background */
-    border-top: 2px solid #cccccc; /* Solid line */
-    border-bottom: 2px solid #cccccc; /* Solid line */
-    margin: 50px 0; /* Less margin for a tighter look */
-    text-shadow: 1px 1px #fff; /* Subtle text shadow */
-    box-shadow: 0px 5px 5px -5px #333; /* Subtle box shadow */
+    font-size: 1.5em; /* Font size is slightly larger for emphasis */
+    color: #24292e; /* Dark gray color used by GitHub */
+    padding: 10px 0; /* Padding for some vertical space */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
+    border-top: 1px solid #e1e4e8; /* Light gray solid border on top */
+    border-bottom: 1px solid #e1e4e8; /* Light gray solid border on bottom */
+    margin: 40px 0; /* Adjust margin for spacing */
+    background: #f6f8fa; /* Light gray background similar to GitHub’s background */
+
 }
   
 
