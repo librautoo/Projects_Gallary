@@ -47,13 +47,13 @@ body {
 .separator-text {
     text-align: center;
     font-size: 1.5em; /* Font size is slightly larger for emphasis */
-    color: #24292e; /* Dark gray color used by GitHub */
+    color: #ffffff; /* Dark gray color used by GitHub */
     padding: 10px 0; /* Padding for some vertical space */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
     border-top: 1px solid #e1e4e8; /* Light gray solid border on top */
     border-bottom: 1px solid #e1e4e8; /* Light gray solid border on bottom */
     margin: 40px 0; /* Adjust margin for spacing */
-    background: #f6f8fa; /* Light gray background similar to GitHub’s background */
+    background: #333; /* Light gray background similar to GitHub’s background */
 
 }
   
