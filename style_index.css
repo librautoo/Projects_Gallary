@@ -30,6 +30,7 @@ body {
 
 }
 
+/* mail css */
 .mail-section {
     margin-top: 10px;
     display: flex;
@@ -44,6 +45,20 @@ body {
     margin-left: 5px; /* Add some space between the icon and the text */
 }
 
+/* Email hover effect */
+.mail-section a {
+    color: #0000EE; /* Default link color */
+    text-decoration: none;
+    position: relative; /* Needed for tooltip positioning */
+}
+
+.mail-section a:hover {
+    color: #ffbf00; /* Change color on hover */
+    text-decoration: underline;
+}
+
+
+/* profile photo css */
 .profile-photo {
     width: 13em;
     height: 13em;
@@ -104,16 +119,15 @@ body {
 }
 
 
-.center-section td.topic a {
-    font-weight: bold; 
-    color: #0000EE; 
-    text-decoration: underline; 
+/* Project link color and hover effect */
+.center-section .topic a {
+    color: #ff00ee; /* Teal color for project links */
+    text-decoration: none;
 }
 
-
-.center-section td.topic a:hover {
-    text-decoration: none; 
-    color: #FF4500; 
+.center-section .topic a:hover {
+    color: #ff4400; /* Coral color on hover */
+    text-decoration: underline;
 }
 
 
