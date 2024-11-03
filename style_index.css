@@ -33,8 +33,7 @@ body {
 /* mail css */
 .mail-section {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
+
 }
 
 .mail-section i {
@@ -45,16 +44,22 @@ body {
     margin-left: 5px; /* Add some space between the icon and the text */
 }
 
-/* Email hover effect */
+
 .mail-section a {
     color: #0000EE; /* Default link color */
     text-decoration: none;
-    position: relative; /* Needed for tooltip positioning */
+   
 }
 
+/* Email hover effect */
 .mail-section a:hover {
     color: #ffbf00; /* Change color on hover */
     text-decoration: underline;
+}
+
+/* signature css */
+.signature-section {
+    width: 75%;
 }
 
 
@@ -79,14 +84,7 @@ body {
 .center-section h3 {
     color: #333;
 }
-.project_screenshots {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-}
+
 
 .center-section table {
     border-collapse: collapse;
