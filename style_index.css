@@ -33,16 +33,17 @@ body {
 /* mail css */
 .mail-section {
     margin-top: 10px;
-
+    display: flex;           /* make it a flex container */
+    flex-direction: column;  /* stack items vertically */
+    align-items: center;     /* center them horizontally */
 }
+
 
 .mail-section i {
     vertical-align: middle; /* Ensure the icon is aligned with the text */
 }
 
-.mail-section span {
-    margin-left: 5px; /* Add some space between the icon and the text */
-}
+
 
 
 .mail-section a {
@@ -59,7 +60,10 @@ body {
 
 /* signature css */
 .signature-section {
-    width: 75%;
+    margin-top: 10px;        /* space above the signature */
+    text-align: center;      /* center the text itself */
+    width: 75%;              /* optional; remove if not needed */
+    margin: 0 auto;          /* center the block if you keep width */
 }
 
 
