@@ -33,10 +33,11 @@ body {
 /* mail css */
 .mail-section {
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center icon, email, and signature */
-  }
+    display: flex;              /* make a flex container */
+    flex-direction: row;        /* place items in a row (default, but explicit is clearer) */
+    align-items: center;        /* vertically center icon and link */
+    justify-content: center;    /* horizontally center within the container */
+}
   
 .mail-section .signature {
     margin-top: 10px;
