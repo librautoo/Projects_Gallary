@@ -44,8 +44,6 @@ body {
 }
 
 
-
-
 .mail-section a {
     color: #0000EE; /* Default link color */
     text-decoration: none;
@@ -143,6 +141,70 @@ body {
 .right-section {
     width: 20%;
 }
+
+/* For Thumb Rating*/
+.post {
+    width: 100%; 
+    max-width: 800px; 
+    margin: auto; 
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.post-ratings-container {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.post-rating {
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.post-rating:not(:last-child) {
+    margin-right: 12px;
+}
+
+.post-rating-selected>.post-rating-button,
+.post-rating-selected>.post-rating-count {
+    color: #009578;
+}
+
+.post-rating-button {
+    margin-right: 6px;
+    cursor: pointer;
+    color: #555555;
+}
+
+.post-rating:not(.post-rating-selected)>.post-rating-button:hover {
+    color: #000000;
+}
+
+
+.clicked {
+    transform: scale(1.3); 
+    transition: transform 0.2s; 
+}
+
+
+.bounce {
+    animation: bounce 0.5s; 
+}
+
+
+@keyframes bounce {
+    0%, 100% { 
+        transform: translateY(0); 
+    }
+    50% { 
+        transform: translateY(-10px);
+    }
+}
+
+
+
 
 /* footer section css */
 .footer {
